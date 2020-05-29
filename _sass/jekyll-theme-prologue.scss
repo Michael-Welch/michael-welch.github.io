@@ -577,7 +577,8 @@
 					text-decoration: none;
 					outline: 0;
 					border: 0;
-					@include vendor('transition', 'none');
+					//@include vendor('transition', 'none');
+					@include vendor('transition', 'color 0.2s ease-in-out');
 
 					span {
 						position: relative;
@@ -601,6 +602,15 @@
 
 						span::before {
 							color: #42b2ce;
+						}
+					}
+
+					&:hover {
+						color: #fff;
+
+						span::before {
+							color: #727272;
+							@include vendor('transition', 'color 0.2s ease-in-out');
 						}
 					}
 				}
