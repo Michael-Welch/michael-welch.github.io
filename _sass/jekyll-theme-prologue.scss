@@ -468,6 +468,25 @@
 		}
 	}
 
+	.item-dark {
+		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		margin-bottom: 40px;
+
+		header {
+			color: #fff;
+			text-align: center;
+			background: #666;
+			margin: 0;
+			padding: 1em;
+			font-size: 0.8em;
+
+			h3 {
+				color: #fff;
+				font-size: 1em;
+			}
+		}
+	}
+
 /* Icons */
 
 	.icon {
